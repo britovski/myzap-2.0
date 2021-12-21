@@ -126,3 +126,20 @@ Para uma instalação usando o WSL do Windows siga o manual escrito e anexo na p
 Para acesso às collections de requisições documentadas, Insomnia e Postman, ambas se encontram na pasta <a href="https://github.com/billbarsch/myzap/tree/myzap2.0/util/postman" target="_blank"> Util </a> do repositório.
 
 Para uma documentação mais interativa sobre as requisições: <a href="https://documenter.getpostman.com/view/15465271/Tzm3oxnt" target="_blank"> Clique aqui </a>
+
+
+
+### caso wppconnet não inicializar tem fazer a atualização dele 
+
+```sh
+npm update @wppconnect-team/wppconnect --force 
+```
+
+
+### video aula para base de conhecimento 
+
+```sh
+https://www.youtube.com/channel/UC-_mG5VU7maEKt5rUj8tSbQ
+https://www.youtube.com/watch?v=_IAizSgo0iw
+```
+
