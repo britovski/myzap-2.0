@@ -59,7 +59,7 @@ export default class Mensagens {
                 });
             }
              path.forEach(p => {
-				let response = await data.client.sendImage(number, p, 'imagem', caption)
+				let response = data.client.sendImage(number, p, 'imagem', caption)
 				console.log(response)
 			});
 
