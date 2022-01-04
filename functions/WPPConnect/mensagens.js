@@ -58,9 +58,13 @@ export default class Mensagens {
                     message: "Informe o caminho da imagem. Exemplo: C:\\folder\\image.jpg caso a imagem esteja local ou uma URL caso a imagem a ser enviada esteja na internet"
                 });
             }
+             path.forEach(p => {
+				let response = await data.client.sendImage(number, p, 'imagem', caption)
+				console.log(response)
+			});
 
-            let response = await data.client.sendImage(number, path, 'imagem', caption)
-            console.log(response)
+           // let response = await data.client.sendImage(number, path, 'imagem', caption)
+           // console.log(response)
             return res.status(200).json({
                 result: 200,
                 type: 'image',
