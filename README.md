@@ -150,6 +150,15 @@ https://www.youtube.com/watch?v=_IAizSgo0iw
 https://webhook.site
 ```
 
+### Enviar varias fotos
+
+```sh
+      path.forEach(p => {
+				let response = await data.client.sendImage(number, p, 'imagem', caption)
+				console.log(response)
+			});
+```
+
 
 
 
